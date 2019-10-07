@@ -80,44 +80,4 @@ public class Roteador extends DispositivoDeRede implements Roteamento {
         Porta defaultPorta = new Porta();
         return defaultPorta;
     }
-
-    public Porta getPortaNorte() {
-        return portaNorte;
-    }
-
-    public void setPortaNorte(Porta portaNorte) {
-        this.portaNorte = portaNorte;
-    }
-
-    public Porta getPortaSul() {
-        return portaSul;
-    }
-
-    public void setPortaSul(Porta portaSul) {
-        this.portaSul = portaSul;
-    }
-
-    public Porta getPortaLeste() {
-        return portaLeste;
-    }
-
-    public void setPortaLeste(Porta portaLeste) {
-        this.portaLeste = portaLeste;
-    }
-
-    public Porta getPortaOeste() {
-        return portaOeste;
-    }
-
-    public void setPortaOeste(Porta portaOeste) {
-        this.portaOeste = portaOeste;
-    }
-
-    public Porta getPortaLigadaRede() {
-        return portaLigadaRede;
-    }
-
-    public void setPortaLigadaRede(Porta portaLigadaRede) {
-        this.portaLigadaRede = portaLigadaRede;
-    }
 } 
